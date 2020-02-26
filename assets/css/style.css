@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: 'Wolf1';
-    src: url('LarishNeueSemibold.woff') format('woff'),}
+    src: url('LarishNeueSemibold.woff')}
 
 @font-face {
     font-family: 'Wolf2';
-    src: url('LarishNeueSemibold.woff2') format('woff2'),}
+    src: url('LarishNeueSemibold.woff2')}
 
 /* ----------------------------- BACKUP --------------------------------------------*/
 /* Farbe: #fff / #000 */
@@ -22,7 +22,6 @@ font-family: Wolf2;
 /* ----------------------------- START GENERELLES ZEUG -----------------------------*/
 body{
     width: 100%;
-    font-family: 'Wolf2';
 }
 
 html{
@@ -32,7 +31,6 @@ html{
 /* ----------------------------- START HEADER -------------------------------------*/
 header{
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #000;
@@ -51,34 +49,92 @@ header span{
 }
 
 header h1{
-    font-family: Wolf1;
+    font-family: 'Wolf2';
     margin-top: 15em;
-    font-size: 1.3em
+    font-size: 1.3em;
 }
 
 header h2{
-    font-family: Wolf2;
-    font-size: 1.3em
+    font-family: 'Wolf1';
+    font-size: 7em;
 }
 
 
 header h3{
-    
+    font-family: 'Wolf1';
+    font-size: 7em;
+    color: black;
+    text-shadow: 0 0 5px white, 0 0 5px white;
 }
 
+
 header h4{
-    
+    font-family: 'Wolf2';
+    font-size: 1.3em;
 }
+
 header a{
     text-decoration: none;
 }
 
-header h1, header h2, header h3, header h4, header a{
+header h1, header h2, header h4, header a{
     color: white;
+}
+
+header div {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+header div img{
+    margin-right: 60vh;
+    height: 40px;
+}
+
+header div a{
+    margin-left: 60vh;
+    font-family: 'Wolf2';
+    font-size: 2em;
+    border: 2px solid white;
+    padding: 10px 40px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+header div a:active{
+    background-color: white;
+    color: black;
+}
+
+
+header div a:active{
+    margin-left: 60vh;
+    font-family: 'Wolf2';
+    font-size: 2em;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 40px;
+}
+/* ----------------------------- ENDE HEADER -------------------------------------*/
+/* ----------------------------- START MAIN SECTION 1 ----------------------------*/
+#Main-Section-1{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Main-Section-1 h5{
+    font-family: 'Wolf2';
+    font-size: 9em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
 
 
 
-/* ----------------------------- ENDE HEADER -------------------------------------*/
+/* ----------------------------- ENDE MAIN SECTION 1 -----------------------------*/
